@@ -24,6 +24,7 @@ shutdown
 repo --name=fedora --mirrorlist=https://mirrors.fedoraproject.org/mirrorlist?repo=fedora-36&arch=x86_64
 repo --name=updates --mirrorlist=https://mirrors.fedoraproject.org/mirrorlist?repo=updates-released-f36&arch=x86_64
 url --mirrorlist=https://mirrors.fedoraproject.org/mirrorlist?repo=fedora-36&arch=x86_64
+repo --name=tau --metalink=http://repo.tauos.co/releases/1.1
 
 %packages
 anaconda
